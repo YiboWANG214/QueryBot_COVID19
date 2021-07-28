@@ -2,10 +2,12 @@
 
 
 1. Preprocess:  
-
+   clean notes: notes_sentence.py  
+   split notes into sentneces: Sentence_split.py  
+   filter meaningful sentences: preprocess1.py  
 
 3. Training:  
-   BERT: python training.py  
+   bioBERT/clinical: python training.py  
 
 3. Obtain sentence embeddings: python embeddings_xx.py  
 
