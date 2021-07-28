@@ -1,8 +1,8 @@
 # QueryBot_COVID19
 
-1. Run QueryBot interface: python interface_xx.py
+1. Run QueryBot interface: python interface_xx.py\\
 
-   interface_BERT.py: interface for QueryBot using clinicalBERT
+   interface_BERT.py: interface for QueryBot using clinicalBERT\\
    interface_bioBERT.py: interface for QueryBot using bioBERT
    interface_tfidf.py: interface for QueryBot using tfidf
    interface_word2vec.py: interface for QueryBot using word2vec
