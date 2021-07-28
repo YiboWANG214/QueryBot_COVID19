@@ -8,7 +8,7 @@ from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 import time
 
-def optimalK(data, nrefs=3, maxClusters=15):
+def optimalK(data, nrefs=3, maxClusters=100):
     gaps = np.zeros((len(range(1, maxClusters)),))
     resultsdf = pd.DataFrame({'clusterCount': [], 'gap': []})
     for gap_index, k in enumerate(range(1, maxClusters)):
