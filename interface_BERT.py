@@ -51,7 +51,7 @@ model = BertForMaskedLM.from_pretrained(output_dir,
 tokenizer = AutoTokenizer.from_pretrained(output_dir)
 
 # Copy the model to the GPU.
-model.to(device)
+# model.to(device)
 model.eval()
 
 
