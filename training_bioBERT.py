@@ -184,7 +184,6 @@ print("Training complete!")
 # Saving best-practices: if you use defaults names for the model, you can reload it using from_pretrained()
 
 output_dir = './model_save_bio/'
-# output_dir = './model_save_clinical'
 
 # Create output directory if needed
 if not os.path.exists(output_dir):
