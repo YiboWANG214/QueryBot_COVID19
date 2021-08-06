@@ -1,5 +1,5 @@
 """
-Fine-tune bioBERT/clinicalBERT on our dataset.
+Fine-tune bioBERT on our dataset.
 """
 
 import torch
@@ -30,9 +30,6 @@ lr = 0.00002
 # bioBERT:
 tokenizer = AutoTokenizer.from_pretrained("dmis-lab/biobert-v1.1")
 pretrained_model = BertForMaskedLM.from_pretrained('dmis-lab/biobert-v1.1')
-# # clinicalBERT:
-# tokenizer = AutoTokenizer.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
-# model = BertForMaskedLM.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
 
 pretrained_model.cuda()
 pretrained_model.eval()
