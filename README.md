@@ -7,7 +7,8 @@
    filter meaningful sentences: preprocess1.py  
 
 3. Training:  
-   bioBERT/clinical: python training.py  
+   bioBERT: python training_bioBERT.py
+   clinicalBERT: python training_clinicalBERT.py
 
 3. Obtain sentence embeddings: python embeddings_xx.py  
 
