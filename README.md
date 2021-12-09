@@ -1,4 +1,5 @@
 # QueryBot_COVID19
+This is the codes for paper "Query bot for retrieving patients’ clinical history: A COVID-19 use-case" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8454191/
 
 
 1. Preprocess:  
